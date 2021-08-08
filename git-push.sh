@@ -10,7 +10,8 @@ while [ $wantPush = "n" ]; do
   read commit_msg
 
   if [[ -n "${commit_msg}" ]]; then
-    git commit -m ${commit_msg};
+    echo "";
+    git commit -m "${commit_msg}";
   else
     echo "Commit message is necessary!";
     exit
@@ -21,6 +22,7 @@ while [ $wantPush = "n" ]; do
   read wantPush
 
   if [ $wantPush == "y" ]; then
+    echo "";
     echo "Pushing...";
     echo "";
 
