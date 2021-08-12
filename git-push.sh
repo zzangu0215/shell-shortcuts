@@ -34,10 +34,4 @@ while [ $wantPush = "n" ]; do
     exit
   fi
 
-  # git commit -m ${commit_msg};
-
-  # git push;
 done
-# else
-#   echo "Everything is up to date";
-# fi;
