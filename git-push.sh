@@ -1,5 +1,5 @@
 #!/bin/bash
-GPH_PATH="/c/Users/tajo0/git-push-heroku.sh"
+GPH_PATH="/path/to/the/git-push-heroku.sh"
 
 wantPush="n"
 
