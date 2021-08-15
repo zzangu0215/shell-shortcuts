@@ -5,6 +5,7 @@ wantPush="n"
 while [ $wantPush = "n" ]; do
   git add -A;
 
+  echo "";
   echo "Put your commit message:";
 
   read commit_msg
@@ -17,7 +18,7 @@ while [ $wantPush = "n" ]; do
     exit
   fi
 
-  echo "Do you want to push it to the repository? (y/n) ";
+  echo "Do you want to push it to the repository? (y/n) Type [gph] if you want to deploy to heroku.";
 
   read wantPush
 
@@ -29,6 +30,9 @@ while [ $wantPush = "n" ]; do
     git push;
     echo "";
     echo "Successfully pushed to the repository!";
+  else if [ $wantPush == "gph" ]; then
+    echo "";
+    sh ./git-push-heroku.sh
   else 
     echo "Works saved, but not pushed";
     exit
