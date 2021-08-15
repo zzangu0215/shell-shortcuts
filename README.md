@@ -6,7 +6,7 @@ Imagine we make typos while typing commands, and imagine we forgot to put our co
 
 Here, I brought some nice shell shortcuts for you to make you less type when you are working on your project! **Less Type** and happy coding!
 
-## Usage
+## 👍 Usage
 
 1. Open your terminal, and type **`cd ~`** to get to the root directory.
 
