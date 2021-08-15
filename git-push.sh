@@ -24,7 +24,7 @@ while [ $wantPush = "n" ]; do
 
   if [ $wantPush == "y" ]; then
     echo "";
-    echo "Pushing...";
+    echo "Pushing to GitHub...";
     echo "";
 
     git push;
