@@ -1,4 +1,5 @@
 #!/bin/bash
+GPH_PATH="/c/Users/tajo0/git-push-heroku.sh"
 
 wantPush="n"
 
@@ -32,7 +33,7 @@ while [ $wantPush = "n" ]; do
     echo "Successfully pushed to the repository!";
   else if [ $wantPush == "gph" ]; then
     echo "";
-    sh ./git-push-heroku.sh
+    exec "$GPH_PATH"
   else 
     echo "Works saved, but not pushed";
     exit

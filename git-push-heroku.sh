@@ -45,12 +45,13 @@ while [ $wantPush = "n" ]; do
     git push heroku main;
     echo "";
     echo "Successfully deployed!";
+    echo "";
   else
     echo "See you again...";
     exit
   fi
 
-  echo "Type [open] to open your heroku app.";
+  printf "Type [open] to open your heroku app. \nType [bye] to finish.";
 
   read herokuOpen
 
