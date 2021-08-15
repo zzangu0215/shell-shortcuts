@@ -158,3 +158,12 @@ alias gph="~/git-push-heroku.sh"
 ```
 
 7. Make some changes in your project, and type **`gp`** to start less typing experience! Have fun!
+
+## 😎 Author
+
+🖐 If you have any question about me or my project, feel free to contact me!
+
+- **Jun Park**
+  - Portfolio: [**Portfolio**](https://portfolio-v2-sjp.herokuapp.com/) (to be updated)
+  - Email: **tajo0215@gmail.com**
+  - **Github**: [**zzangu0215**](https://github.com/zzangu0215)
