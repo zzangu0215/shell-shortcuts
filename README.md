@@ -119,7 +119,7 @@ Here, I brought some nice shell shortcuts for you to make you less type when you
       exit
     fi
 
-    echo "Do you want to push it to the repository? (y/n) Type [gph] if you want to deploy to heroku.";
+    printf "Do you want to push it to the repository? (y/n) \nType [gph] if you want to deploy to heroku. ";
 
     read wantPush
 
